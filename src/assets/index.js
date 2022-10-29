@@ -1,0 +1,1 @@
+// this js file is going to be call in the index app
