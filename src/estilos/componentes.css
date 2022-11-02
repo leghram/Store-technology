@@ -1,0 +1,157 @@
+
+/* ESTILOS PARA COMPONENTE BOX_1_SHORT */
+.box_1_short{
+  display: flex;
+  width: 340px;
+  height: 150px;
+  justify-content: center;
+  border: rgb(217, 213, 213) 1px solid;
+  margin: 9px;
+}
+
+.info_box_1_short{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.box_img_box_1_short{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.img_box_1_short{
+  margin: auto;
+  height: 130px;
+  width: 140px;
+}
+/*________________________________*/
+
+
+/* ESTILOS PARA COMPONENTE BOX_2_CEL_BIG */
+.box_2_cel_big{
+  margin: 10px;
+  text-align: center;
+  width: 350px;
+  height: 550px;
+  background-position: center center;
+  background-size: cover;
+  border: rgb(206, 196, 196) 1px solid;
+}
+
+.box_2_cel_big:hover{
+    background-position: center center;
+  background-size: 180% 120%;
+}
+
+.box_2_marca{
+  margin: 10px auto;
+  font-size: 35px;
+  color: red;
+}
+
+.box_2_nombre{
+  margin: 10px auto;
+  font-size: 25px;
+  color: rgb(192, 52, 231);
+}
+
+.box_2_price{
+  text-align: left;
+  font-size: 30px;
+  margin: 50px 20px;
+}
+/*________________________________*/
+
+
+/* ESTILOS PARA COMPONENTE BOX_3_ITEM */
+.box_3_item{
+  margin: 10px;
+  height: 420px;
+  width: 300px;
+  border: rgb(206, 196, 196) 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.box_3_item:hover{
+  box-shadow: 0px 0px 15px rgb(154, 136, 136);
+}
+
+.box_3_item:hover .box_3_boton{
+  color: rgb(230, 81, 81);
+  background-color: white;
+  border: rgb(230, 81, 81) 2px solid;
+}
+
+.box_3_img_container{
+  display: flex;
+  justify-content: center;
+}
+
+.img_box_3{
+  margin: 20px auto;
+  height: 200px;
+  width: 200px;
+}
+
+.box_3_etiquetas{
+  display: flex;
+  justify-content: space-around;
+}
+
+.box_3_etiqueta_hijo{
+ background-color: rgb(157, 160, 162);
+ color: white;
+ padding: 3px 8px;
+ border-radius: 7px;
+}
+
+.box_3_title{
+  margin: 10px auto;
+  font-size: 30px;
+  text-align: center;
+}
+
+.box_3_precio{
+  margin: 10px auto;
+  font-size: 25px;
+}
+
+.box_3_boton{
+  font-weight: bolder;
+  text-align: center;
+  font-size: 20px;
+  height: 24px;
+  width: 50%;
+  margin: auto;
+  color: white;
+  background-color: rgb(230, 81, 81);
+  border-radius: 6px;
+}
+
+.box_3_boton:hover{
+  color: rgb(230, 81, 81);
+  background-color: white;
+  border: rgb(230, 81, 81) 2px solid;
+}
+
+/*________________________________*/
+
+
+/* ESTILOS PARA COMPONENTE BOX_4_BEST_BOX */
+.box_4_best_box{
+  margin: 10px;
+  height: 420px;
+  width: 420px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.box_4_best_box:hover{
+  background-position: center center;
+background-size: 110% 140%;
+}
+
