@@ -6,6 +6,6 @@
 		$uri = 'http://';
 	}
 	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/src/vistas');
+	header('Location: '.$uri.'/src/');
 	exit;
 ?>
